@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b>I m p o s t e r - Albin Einstein</b></h1>
+    <main id="setup">
+        <div id="settings">
+            <h2>Settings:</h2>
+            <div>
+                <label for="players">Players:</label>
+                <input class="number-input"type="number" id="players" min="3" name="players" value="3">
+            </div>
+            <div>
+                <label for="imposters">Imposters:</label>
+                <input class="number-input" type="number" id="imposters" min="1" name="imposters" value="1">
+            </div>
+            <div id="categories">
+                <h3>Categories:</h3>
+                <div id="categories-list">
+                    <div id="mat">
+                        <label for="mat">mat</label>
+                    </div>
+                    <div id="länder">
+                        <label for="länder" >Länder</label>
+                    </div>
+                    <div id="platser">
+                        <label for="platser">Platser</label>
+                    </div>    
+                    <div id="filmer">
+                        <label for="filmer">Filmer</label>
+                    </div>           
+                </div>
+            </div>
+            <div id="startBox">
+                <button id="startGame">Start</button>
+            </div>
+
+        </div>
+
+    </main>
+    <main id="game" style="display: none;">
+    <div id="playersCont">
+            <div class="player" data-player="1" data-done="0">1</div>
+            <div class="player" data-player="2" data-done="0">2</div>
+            <div class="player" data-player="3" data-done="0">3</div>
+            <div class="player" data-player="4" data-done="0">4</div>
+            <div class="player" data-player="5" data-done="0">5</div>
+            <div class="player" data-player="6" data-done="0">6</div>
+            <div class="player" data-player="7" data-done="0">7</div>
+            <div class="player" data-player="8" data-done="0">8</div>
+            <div class="player" data-player="9" data-done="0">9</div>
+            <div class="player" data-player="10" data-done="0">10</div>
+        </div>
+    
+            <div id="playerInfo" style="display: none;">
+                <h2 id="categorieRound"></h2>
+                <p id="roleRound"></p>
+                <p id="hintRound"></p>
+
+                <button id="next" >Förstått</button>
+            </div>
+
+
+        </main>
+            
+    <script src="script.js"></script>
+</body>
+</html>
