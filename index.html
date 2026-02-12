@@ -7,35 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><b>I m p o s t e r - Albin Einstein</b></h1>
+    <h1><b>I m p o s t e r - Alabin</b></h1>
     <main id="setup">
         <div id="settings">
             <h2>Settings:</h2>
             <div>
                 <label for="players">Players:</label>
-                <input class="number-input"type="number" id="players" min="3" name="players" value="3">
+                <input class="number-input"type="number" id="players" min="3" max="10" name="players" value="3">
             </div>
             <div>
                 <label for="imposters">Imposters:</label>
                 <input class="number-input" type="number" id="imposters" min="1" name="imposters" value="1">
             </div>
+            <button id="namesBtn">Choose names</button>
+            <div id="nameSettings" style="display: none;">
+                <button id="backFromNameSettings">Back</button>
+                <div class="playerNames" ><input type="playerName" id="playerName10"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName9"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName8"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName7"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName6"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName5"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName4"></div>
+                <div class="playerNames" ><input type="playerName" id="playerName3"></div>
+                <div class="playerNames"><input type="playerName" id="playerName2"></div>
+                <div class="playerNames"><input type="playerName" id="playerName1"></div>
+            </div>
             <div id="categories">
                 <h3>Categories:</h3>
                 <div id="categories-list">
-                    <div id="mat">
-                        <label for="mat">mat</label>
+                    <div id="mat" class="on">
+                        <label for="mat" >Mat</label>
                     </div>
-                    <div id="länder">
+                    <div id="länder" class="on">
                         <label for="länder" >Länder</label>
                     </div>
-                    <div id="platser">
-                        <label for="platser">Platser</label>
+                    <div id="platser" class="on">
+                        <label for="platser" >Platser</label>
                     </div>    
-                    <div id="filmer">
-                        <label for="filmer">Filmer</label>
-                    </div>           
+                    <div id="filmer" class="on">
+                        <label for="filmer" >Filmer</label>
+                    </div>    
+                    <div id="städer" class="on">
+                        <label for="städer" >Städer</label>
+                    </div>
+                    <div id="djur" class="on">
+                        <label for="djur" >Djur</label>        
+                    </div>
                 </div>
-            </div>
             <div id="startBox">
                 <button id="startGame">Start</button>
             </div>
