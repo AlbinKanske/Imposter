@@ -1,7 +1,39 @@
+let arrayPlayerNames = [];
+const playerNames = document.querySelectorAll(".playerNames");
+
+const nameBtn = document.getElementById("namesBtn");
+const backBtn = document.getElementById("backFromNameSettings");
+nameBtn.addEventListener("click", () => {
+    const nameSettings = document.getElementById("nameSettings");
+    if(nameSettings.style.display !== "grid") {
+        nameSettings.style.display = "grid"; 
+    } 
+
+    for (let i = 0; i < 10; i++) {
+    if (i < playerAmount.value) {
+        playerNames[i].style.display = "flex";
+    } else {
+        playerNames[i].style.display = "none";
+    }
+    }
+
+})
+backBtn.addEventListener("click", () => {
+    const nameSettings = document.getElementById("nameSettings");
+    nameSettings.style.display = "none";
+    for(let i = 0; i < playerNames.length; i++) {
+        arrayPlayerNames[i] = playerNames[i].querySelector("input").value;
+    }
+    console.log(arrayPlayerNames)
+});
+
+
 const mat = document.getElementById("mat");
 const länder = document.getElementById("länder");
 const platser = document.getElementById("platser");
 const filmer = document.getElementById("filmer");
+const städer = document.getElementById("städer");
+const djur = document.getElementById("djur");
 
 const playerAmount = document.getElementById("players");    
 const imposterAmount = document.getElementById("imposters");
@@ -18,6 +50,12 @@ platser.addEventListener("click", (event) => {
 filmer.addEventListener("click", (event) => {
     toggleClass(event);
 })
+städer.addEventListener("click", (event) => {
+    toggleClass(event);
+});
+djur.addEventListener("click", (event) => {
+    toggleClass(event);
+});
 
 function toggleClass(event) {
     if(event.currentTarget.classList.contains("on")) {
@@ -54,13 +92,18 @@ async function getCategorie() {
     }
 }
 
-function randomImposter(imps, Players) {
+function randomImposter(numImposters, numPlayers) {
     let imposters = [];
-    for(let i = 0; i < imps; i++) {
-        imposters.push(Math.floor(Math.random() * Players) + 1);
-    }
-    return imposters;
 
+    while (imposters.length < numImposters) {
+        let candidate = Math.floor(Math.random() * numPlayers) + 1;
+
+        if (!imposters.includes(candidate)) {
+            imposters.push(candidate);
+        }
+    }
+
+    return imposters;
 }
 
 let Name;
@@ -126,6 +169,13 @@ startGame.addEventListener("click", async () => {
             break;    
         }
 
+    for(let i = 0; i < playerDivs.length; i++) {
+        if(arrayPlayerNames[i] !== "" && arrayPlayerNames[i] !== null) {
+            playerDivs[i].textContent = arrayPlayerNames[i];
+        }
+        
+    }
+
     const data = await getCategorie();
     const categoriesObject = data.categories; 
 
@@ -146,7 +196,8 @@ startGame.addEventListener("click", async () => {
     Name = randomSelection.name;
 
     chosenImp = randomImposter(imposter, players)
-    console.log(chosenImp[0]);
+
+    console.log("Imposters:" + chosenImp);
 });
 
 const categorieRound = document.getElementById("categorieRound");
@@ -162,7 +213,14 @@ playerDivs.forEach(div => {
             return;
         }
         console.log(div.dataset.player);
-        if(div.dataset.player === String(chosenImp[0])) {
+        let isImposter = false;
+        for(let i = 0; i < chosenImp.length; i++) {
+            if(div.dataset.player === String(chosenImp[i])) {
+                isImposter = true;
+                break;
+                }
+            }
+        if(isImposter) {
             roleRound.textContent = "Du är en Imposter!";
             categorieRound.textContent = `Kategori: ${chosedCategorieName}`;
             hintRound.textContent = `Ledtråd: ${Hint}`;
@@ -197,3 +255,6 @@ nextButton.addEventListener("click", () => {
         alert(`Alla spelare har fått sina roller! Spelaren som börjar är spelare ${Math.floor(Math.random() * players) + 1}`);
     }
 });
+
+
+
