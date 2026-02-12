@@ -1,0 +1,1612 @@
+{
+    "categories": {
+        "mat": [
+            {
+                "name": "Köttbullar",
+                "hint": "Runda"
+            },
+            {
+                "name": "Lasagne",
+                "hint": "Lager"
+            },
+            {
+                "name": "Pannkakor",
+                "hint": "Platta"
+            },
+            {
+                "name": "Kebab",
+                "hint": "Rulle"
+            },
+            {
+                "name": "Falukorv",
+                "hint": "Ring"
+            },
+            {
+                "name": "Blodpudding",
+                "hint": "Järn"
+            },
+            {
+                "name": "Raggmunk",
+                "hint": "Riven"
+            },
+            {
+                "name": "Pyttipanna",
+                "hint": "Restmat"
+            },
+            {
+                "name": "Ärtsoppa",
+                "hint": "baljväxt"
+            },
+            {
+                "name": "Wallenbergare",
+                "hint": "Ströbröd"
+            },
+            {
+                "name": "Biff Rydberg",
+                "hint": "Senapskräm"
+            },
+            {
+                "name": "Kalops",
+                "hint": "Lagerblad"
+            },
+            {
+                "name": "Flygande Jakob",
+                "hint": "Jordnötter"
+            },
+            {
+                "name": "Korv Stroganoff",
+                "hint": "Paprikapulver"
+            },
+            {
+                "name": "Fiskpinnar",
+                "hint": "Panerat"
+            },
+            {
+                "name": "Strömming",
+                "hint": "Klämmor"
+            },
+            {
+                "name": "Lax",
+                "hint": "Rosa"
+            },
+            {
+                "name": "Sill",
+                "hint": "Midsommar"
+            },
+            {
+                "name": "Räkmacka",
+                "hint": "Handskalade"
+            },
+            {
+                "name": "Paella",
+                "hint": "Saffran"
+            },
+            {
+                "name": "Risotto",
+                "hint": "Rörande"
+            },
+            {
+                "name": "Carbonara",
+                "hint": "Fläsk"
+            },
+            {
+                "name": "Bolognese",
+                "hint": "Långkok"
+            },
+            {
+                "name": "Ravioli",
+                "hint": "Kuddar"
+            },
+            {
+                "name": "Tortellini",
+                "hint": "Navel"
+            },
+            {
+                "name": "Pad Thai",
+                "hint": "Jordnötter"
+            },
+            {
+                "name": "Ramen",
+                "hint": "Ägg"
+            },
+            {
+                "name": "Bibimbap",
+                "hint": "Skål"
+            },
+            {
+                "name": "Dumplings",
+                "hint": "Degknyten"
+            },
+            {
+                "name": "Vårrullar",
+                "hint": "Grönsaker"
+            },
+            {
+                "name": "Pekinganka",
+                "hint": "Fågel"
+            },
+            {
+                "name": "Butter Chicken",
+                "hint": "Indien"
+            },
+            {
+                "name": "Palak Paneer",
+                "hint": "Spenat"
+            },
+            {
+                "name": "Tikkan Masala",
+                "hint": "Kryddigt"
+            },
+            {
+                "name": "Gulasch",
+                "hint": "Paprika"
+            },
+            {
+                "name": "Schnitzel",
+                "hint": "Bankad"
+            },
+            {
+                "name": "Ratatouille",
+                "hint": "Grönsaker"
+            },
+            {
+                "name": "Coq au vin",
+                "hint": "Grytbitar"
+            },
+            {
+                "name": "Moules Frites",
+                "hint": "Skal"
+            },
+            {
+                "name": "Quiche",
+                "hint": "Paj"
+            },
+            {
+                "name": "Omelett",
+                "hint": "Knäckt"
+            },
+            {
+                "name": "Eggs Benedict",
+                "hint": "Frukost"
+            },
+            {
+                "name": "Ceasarsallad",
+                "hint": "Dressing"
+            },
+            {
+                "name": "Grekisk sallad",
+                "hint": "Feta"
+            },
+            {
+                "name": "Poke Bowl",
+                "hint": "Raw"
+            },
+            {
+                "name": "Chili con Carne",
+                "hint": "Bönor"
+            },
+            {
+                "name": "Enchiladas",
+                "hint": "Gratinerat"
+            },
+            {
+                "name": "Burrito",
+                "hint": "Inlindat"
+            },
+            {
+                "name": "Quesadilla",
+                "hint": "Stekt bröd"
+            },
+            {
+                "name": "Nachos",
+                "hint": "Hatt"
+            },
+            {
+                "name": "Fish and Chips",
+                "hint": "Tidningspapper"
+            },
+            {
+                "name": "Shepherds Pie",
+                "hint": "Mos"
+            },
+            {
+                "name": "Moussaka",
+                "hint": "Aubergine"
+            },
+            {
+                "name": "Dolmar",
+                "hint": "Vinblad"
+            },
+            {
+                "name": "Hummus",
+                "hint": "Kikärtor"
+            },
+            {
+                "name": "Falafel",
+                "hint": "Bollar"
+            },
+            {
+                "name": "Shakshuka",
+                "hint": "Panna"
+            },
+            {
+                "name": "Biff á la Lindström",
+                "hint": "Kapris"
+            },
+            {
+                "name": "Kåldolmar",
+                "hint": "Huvud"
+            },
+            {
+                "name": "Isterband",
+                "hint": "Syrligt"
+            },
+            {
+                "name": "Pitepalt",
+                "hint": "Norrland"
+            },
+            {
+                "name": "Kroppkakor",
+                "hint": "Öland"
+            },
+            {
+                "name": "Sjömansbiff",
+                "hint": "Öl"
+            },
+            {
+                "name": "Plankstek",
+                "hint": "Trä"
+            },
+            {
+                "name": "Entrecote",
+                "hint": "Grillat"
+            },
+            {
+                "name": "Oxfilé",
+                "hint": "Lyx"
+            },
+            {
+                "name": "Wok",
+                "hint": "Het"
+            },
+            {
+                "name": "Hotpot",
+                "hint": "Doppa"
+            },
+            {
+                "name": "Pho",
+                "hint": "Vietnam"
+            },
+            {
+                "name": "Dim Sum",
+                "hint": "Smått"
+            },
+            {
+                "name": "Gnocchi",
+                "hint": "Potatisdeg"
+            },
+            {
+                "name": "Cannelloni",
+                "hint": "Rör"
+            },
+            {
+                "name": "Gazpacho",
+                "hint": "Kall"
+            },
+            {
+                "name": "Tortilla",
+                "hint": "Spanien"
+            },
+            {
+                "name": "Tapas",
+                "hint": "Plock"
+            },
+            {
+                "name": "Ceviche",
+                "hint": "Syra"
+            },
+            {
+                "name": "Lammstek",
+                "hint": "Vitlök"
+            },
+            {
+                "name": "Revbensspjäll",
+                "hint": "Ben"
+            },
+            {
+                "name": "Pulled Pork",
+                "hint": "Draget"
+            },
+            {
+                "name": "Sloppy Joe",
+                "hint": "Kladdigt"
+            },
+            {
+                "name": "Club Sandwich",
+                "hint": "Våningar"
+            },
+            {
+                "name": "BLT",
+                "hint": "Tre bokstäver"
+            },
+            {
+                "name": "Croque Monsieur",
+                "hint": "Varm"
+            },
+            {
+                "name": "Bouillabaisse",
+                "hint": "Gryta"
+            },
+            {
+                "name": "Gubbröra",
+                "hint": "Ansjovis"
+            },
+            {
+                "name": "Toast Skagen",
+                "hint": "Pepparrot"
+            },
+            {
+                "name": "S.O.S",
+                "hint": "Smör"
+            },
+            {
+                "name": "Biff Tartar",
+                "hint": "Rått"
+            },
+            {
+                "name": "Carpaccio",
+                "hint": "Tunt"
+            },
+            {
+                "name": "Fajitas",
+                "hint": "Fräsande"
+            },
+            {
+                "name": "Chow Mein",
+                "hint": "Stekt"
+            },
+            {
+                "name": "Tempura",
+                "hint": "Frityrsmet"
+            },
+            {
+                "name": "Piroger",
+                "hint": "Inbakat"
+            },
+            {
+                "name": "Kebabtallrik",
+                "hint": "Pommes"
+            },
+            {
+                "name": "Kycklingcurry",
+                "hint": "Gult"
+            },
+            {
+                "name": "Boeuf Bourguignon",
+                "hint": "Vin"
+            },
+            {
+                "name": "Lobster Roll",
+                "hint": "Hummer"
+            },
+            {
+                "name": "Clam Chowder",
+                "hint": "Musslor"
+            },
+            {
+                "name": "Jambalaya",
+                "hint": "Södern"
+            },
+            {
+                "name": "Renskav",
+                "hint": "Vilt"
+            }
+        ],
+        "länder": [
+            {
+                "name": "Sverige",
+                "hint": "Lagom"
+            },
+            {
+                "name": "Norge",
+                "hint": "Fjordar"
+            },
+            {
+                "name": "Danmark",
+                "hint": "Öar"
+            },
+            {
+                "name": "Finland",
+                "hint": "Skog"
+            },
+            {
+                "name": "Island",
+                "hint": "Gejsrar"
+            },
+            {
+                "name": "Tyskland",
+                "hint": "Bilar"
+            },
+            {
+                "name": "Frankrike",
+                "hint": "Torn"
+            },
+            {
+                "name": "Italien",
+                "hint": "Stöveln"
+            },
+            {
+                "name": "Spanien",
+                "hint": "Siesta"
+            },
+            {
+                "name": "Storbritannien",
+                "hint": "Vänstertrafik"
+            },
+            {
+                "name": "Grekland",
+                "hint": "Kärlek"
+            },
+            {
+                "name": "Nederländerna",
+                "hint": "Väderkvarnar"
+            },
+            {
+                "name": "Belgien",
+                "hint": "Praliner"
+            },
+            {
+                "name": "Schweiz",
+                "hint": "Berg"
+            },
+            {
+                "name": "Österrike",
+                "hint": "Joddel"
+            },
+            {
+                "name": "Portugal",
+                "hint": "Kork"
+            },
+            {
+                "name": "Irland",
+                "hint": "Den gröna ön"
+            },
+            {
+                "name": "Polen",
+                "hint": "Piroger"
+            },
+            {
+                "name": "Tjeckien",
+                "hint": "Kristall"
+            },
+            {
+                "name": "Ungern",
+                "hint": "Puszta"
+            },
+            {
+                "name": "Rumänien",
+                "hint": "Vampyrer"
+            },
+            {
+                "name": "Bulgarien",
+                "hint": "Rosolja"
+            },
+            {
+                "name": "Kroatien",
+                "hint": "Tusen öar"
+            },
+            {
+                "name": "Serbien",
+                "hint": "Balkan"
+            },
+            {
+                "name": "Estland",
+                "hint": "Skype"
+            },
+            {
+                "name": "Lettland",
+                "hint": "Bärnsten"
+            },
+            {
+                "name": "Litauen",
+                "hint": "Korgboll"
+            },
+            {
+                "name": "Ryssland",
+                "hint": "Stort"
+            },
+            {
+                "name": "Ukraina",
+                "hint": "Solrosor"
+            },
+            {
+                "name": "Turkiet",
+                "hint": "Mellan två kontinenter"
+            },
+            {
+                "name": "USA",
+                "hint": "Stjärnor"
+            },
+            {
+                "name": "Kanada",
+                "hint": "löv"
+            },
+            {
+                "name": "Mexiko",
+                "hint": "Taco"
+            },
+            {
+                "name": "Brasilien",
+                "hint": "Karneval"
+            },
+            {
+                "name": "Argentina",
+                "hint": "Tango"
+            },
+            {
+                "name": "Chile",
+                "hint": "Långsmalt"
+            },
+            {
+                "name": "Colombia",
+                "hint": "Kaffe"
+            },
+            {
+                "name": "Peru",
+                "hint": "Inkariket"
+            },
+            {
+                "name": "Ecuador",
+                "hint": "Mittlinjen"
+            },
+            {
+                "name": "Uruguay",
+                "hint": "Lila"
+            },
+            {
+                "name": "Paraguay",
+                "hint": "Inland"
+            },
+            {
+                "name": "Venezuela",
+                "hint": "Vattenfall"
+            },
+            {
+                "name": "Kina",
+                "hint": "Muren"
+            },
+            {
+                "name": "Japan",
+                "hint": "Den uppgående solen"
+            },
+            {
+                "name": "Indien",
+                "hint": "Kryddor"
+            },
+            {
+                "name": "Sydkorea",
+                "hint": "Teknik"
+            },
+            {
+                "name": "Thailand",
+                "hint": "Leendets land"
+            },
+            {
+                "name": "Vietnam",
+                "hint": "Triangulära hattar"
+            },
+            {
+                "name": "Indonesien",
+                "hint": "Skärgård"
+            },
+            {
+                "name": "Filippinerna",
+                "hint": "Mango"
+            },
+            {
+                "name": "Malaysia",
+                "hint": "Tvillingtorn"
+            },
+            {
+                "name": "Singapore",
+                "hint": "Stadsstat"
+            },
+            {
+                "name": "Australien",
+                "hint": "Pungdjur"
+            },
+            {
+                "name": "Nya Zeeland",
+                "hint": "Kiwi"
+            },
+            {
+                "name": "Egypten",
+                "hint": "Pyramider"
+            },
+            {
+                "name": "Sydafrika",
+                "hint": "Regnbåge"
+            },
+            {
+                "name": "Kenya",
+                "hint": "Safari"
+            },
+            {
+                "name": "Etiopien",
+                "hint": "Högland"
+            },
+            {
+                "name": "Marocko",
+                "hint": "Basarer"
+            },
+            {
+                "name": "Tunisien",
+                "hint": "Kartago"
+            },
+            {
+                "name": "Algeriet",
+                "hint": "Sahara"
+            },
+            {
+                "name": "Nigeria",
+                "hint": "Folkrikast i Afrika"
+            },
+            {
+                "name": "Ghana",
+                "hint": "Kakao"
+            },
+            {
+                "name": "Madagaskar",
+                "hint": "Lemurer"
+            },
+            {
+                "name": "Israel",
+                "hint": "Döda havet"
+            },
+            {
+                "name": "Jordanien",
+                "hint": "Petra"
+            },
+            {
+                "name": "Libanon",
+                "hint": "Cederträd"
+            },
+            {
+                "name": "Saudiarabien",
+                "hint": "Svart guld"
+            },
+            {
+                "name": "Förenade Arabemiraten",
+                "hint": "Skyskrapor"
+            },
+            {
+                "name": "Iran",
+                "hint": "Mattor"
+            },
+            {
+                "name": "Irak",
+                "hint": "Tvåflodslandet"
+            },
+            {
+                "name": "Pakistan",
+                "hint": "Himalaya"
+            },
+            {
+                "name": "Afghanistan",
+                "hint": "Bergsland"
+            },
+            {
+                "name": "Mongoliet",
+                "hint": "Stäpp"
+            },
+            {
+                "name": "Kazakstan",
+                "hint": "Centralasien"
+            },
+            {
+                "name": "Slovakien",
+                "hint": "Borgar"
+            },
+            {
+                "name": "Slovenien",
+                "hint": "Sjöar"
+            },
+            {
+                "name": "Albanien",
+                "hint": "Örnar"
+            },
+            {
+                "name": "Luxemburg",
+                "hint": "Litet och rikt"
+            },
+            {
+                "name": "Malta",
+                "hint": "Riddare"
+            },
+            {
+                "name": "Cypern",
+                "hint": "Delad ö"
+            },
+            {
+                "name": "Monaco",
+                "hint": "Kasino"
+            },
+            {
+                "name": "Vatikanstaten",
+                "hint": "Minst"
+            },
+            {
+                "name": "Andorra",
+                "hint": "Pyrenéerna"
+            },
+            {
+                "name": "San Marino",
+                "hint": "Gammalt"
+            },
+            {
+                "name": "Liechtenstein",
+                "hint": "Furstendöme"
+            },
+            {
+                "name": "Kuba",
+                "hint": "Cigarrer"
+            },
+            {
+                "name": "Jamaica",
+                "hint": "Reggae"
+            },
+            {
+                "name": "Haiti",
+                "hint": "Västindien"
+            },
+            {
+                "name": "Panama",
+                "hint": "Kanal"
+            },
+            {
+                "name": "Costa Rica",
+                "hint": "Regnskog"
+            },
+            {
+                "name": "Bolivia",
+                "hint": "Saltöken"
+            },
+            {
+                "name": "Tanzania",
+                "hint": "Kilimanjaro"
+            },
+            {
+                "name": "Namibia",
+                "hint": "Öken"
+            },
+            {
+                "name": "Botswana",
+                "hint": "Diamanter"
+            },
+            {
+                "name": "Nepal",
+                "hint": "Världens tak"
+            },
+            {
+                "name": "Sri Lanka",
+                "hint": "Te"
+            },
+            {
+                "name": "Maldiverna",
+                "hint": "Atoller"
+            },
+            {
+                "name": "Azerbajdzjan",
+                "hint": "Eldens land"
+            },
+            {
+                "name": "Georgien",
+                "hint": "Kaukasus"
+            }
+        ],
+        "platser": [
+            {
+                "name": "Tågstation",
+                "hint": "Högtalare"
+            },
+            {
+                "name": "Fotbollsplan",
+                "hint": "Linjer"
+            },
+            {
+                "name": "Bibliotek",
+                "hint": "Soffa"
+            },
+            {
+                "name": "Sjukhus",
+                "hint": "Vitt"
+            },
+            {
+                "name": "Skola",
+                "hint": "Klocka"
+            },
+            {
+                "name": "Mataffär",
+                "hint": "Vagn"
+            },
+            {
+                "name": "Biograf",
+                "hint": "Mörker"
+            },
+            {
+                "name": "Gym",
+                "hint": "Medlemskap"
+            },
+            {
+                "name": "Simhall",
+                "hint": "Glasögon"
+            },
+            {
+                "name": "Apotek",
+                "hint": "Recept"
+            },
+            {
+                "name": "Bensinstation",
+                "hint": "Slang"
+            },
+            {
+                "name": "Flygplats",
+                "hint": "Affärer"
+            },
+            {
+                "name": "Kyrka",
+                "hint": "Torn"
+            },
+            {
+                "name": "Restaurang",
+                "hint": "Ordna"
+            },
+            {
+                "name": "Frisör",
+                "hint": "Vatten"
+            },
+            {
+                "name": "Lekpark",
+                "hint": "Snurra"
+            },
+            {
+                "name": "Busshållplats",
+                "hint": "Tid"
+            },
+            {
+                "name": "Hotell",
+                "hint": "Telefon"
+            },
+            {
+                "name": "Bank",
+                "hint": "Pension"
+            },
+            {
+                "name": "Postkontor",
+                "hint": "Paket"
+            },
+            {
+                "name": "Polisstation",
+                "hint": "Förhör"
+            },
+            {
+                "name": "Brandstation",
+                "hint": "Stång"
+            },
+            {
+                "name": "Parkeringshus",
+                "hint": "Betong"
+            },
+            {
+                "name": "Shoppingcenter",
+                "hint": "Rulltrappa"
+            },
+            {
+                "name": "Museum",
+                "hint": "Montrar"
+            },
+            {
+                "name": "Teater",
+                "hint": "Ridå"
+            },
+            {
+                "name": "Nattklubb",
+                "hint": "Bas"
+            },
+            {
+                "name": "Café",
+                "hint": "Bönor"
+            },
+            {
+                "name": "Bageri",
+                "hint": "Jäst"
+            },
+            {
+                "name": "Tandläkare",
+                "hint": "Borr"
+            },
+            {
+                "name": "Djuraffär",
+                "hint": "Galler"
+            },
+            {
+                "name": "Blomsteraffär",
+                "hint": "Kanna"
+            },
+            {
+                "name": "Bilverkstad",
+                "hint": "Domkraft"
+            },
+            {
+                "name": "Tvättstuga",
+                "hint": "Virvel"
+            },
+            {
+                "name": "Vårdcentral",
+                "hint": "Väntrum"
+            },
+            {
+                "name": "Daghem",
+                "hint": "Galonbyxor"
+            },
+            {
+                "name": "Universitet",
+                "hint": "Tentamen"
+            },
+            {
+                "name": "Stadion",
+                "hint": "Läktare"
+            },
+            {
+                "name": "Hamn",
+                "hint": "Ankare"
+            },
+            {
+                "name": "Torg",
+                "hint": "Stenlagt"
+            },
+            {
+                "name": "Kyrkogård",
+                "hint": "Ljus"
+            },
+            {
+                "name": "Skog",
+                "hint": "Stig"
+            },
+            {
+                "name": "Strand",
+                "hint": "Snäckor"
+            },
+            {
+                "name": "Brygga",
+                "hint": "Träplankor"
+            },
+            {
+                "name": "Fängelse",
+                "hint": "Galler"
+            },
+            {
+                "name": "Domstol",
+                "hint": "Klubba"
+            },
+            {
+                "name": "Stadshus",
+                "hint": "Politik"
+            },
+            {
+                "name": "Bensinstation",
+                "hint": "Pumpar"
+            },
+            {
+                "name": "Bilskola",
+                "hint": "Pedaler"
+            },
+            {
+                "name": "Camping",
+                "hint": "Tält"
+            },
+            {
+                "name": "Vandrarhem",
+                "hint": "Våningssäng"
+            },
+            {
+                "name": "Cirkus",
+                "hint": "Manège"
+            },
+            {
+                "name": "Djurens park",
+                "hint": "Stängsel"
+            },
+            {
+                "name": "Botanisk trädgård",
+                "hint": "Växthus"
+            },
+            {
+                "name": "Isstadion",
+                "hint": "Skridskor"
+            },
+            {
+                "name": "Bowlinghall",
+                "hint": "Klot"
+            },
+            {
+                "name": "Golfbana",
+                "hint": "Hål"
+            },
+            {
+                "name": "Skidbacke",
+                "hint": "Lift"
+            },
+            {
+                "name": "Ridhus",
+                "hint": "Spån"
+            },
+            {
+                "name": "Skatepark",
+                "hint": "Betongramp"
+            },
+            {
+                "name": "Saluhall",
+                "hint": "Diskar"
+            },
+            {
+                "name": "Second Hand",
+                "hint": "Begagnat"
+            },
+            {
+                "name": "Gallerian",
+                "hint": "Butiker"
+            },
+            {
+                "name": "Byggvaruhus",
+                "hint": "Plankor"
+            },
+            {
+                "name": "Möbelaffär",
+                "hint": "Utställning"
+            },
+            {
+                "name": "Bilutställning",
+                "hint": "Lack"
+            },
+            {
+                "name": "Konstgalleri",
+                "hint": "Ramar"
+            },
+            {
+                "name": "Konserthus",
+                "hint": "Akustik"
+            },
+            {
+                "name": "Operahus",
+                "hint": "Sång"
+            },
+            {
+                "name": "Observatorium",
+                "hint": "Stjärnor"
+            },
+            {
+                "name": "Planetarium",
+                "hint": "Rymden"
+            },
+            {
+                "name": "Fyr",
+                "hint": "Ljusstråle"
+            },
+            {
+                "name": "Slott",
+                "hint": "Vallgrav"
+            },
+            {
+                "name": "Ruin",
+                "hint": "Rester"
+            },
+            {
+                "name": "Borg",
+                "hint": "Försvar"
+            },
+            {
+                "name": "Kloster",
+                "hint": "Munkar"
+            },
+            {
+                "name": "Synagoga",
+                "hint": "Ljusstake"
+            },
+            {
+                "name": "Moské",
+                "hint": "Minaret"
+            },
+            {
+                "name": "Tempel",
+                "hint": "Rökelse"
+            },
+            {
+                "name": "Vind",
+                "hint": "Spindelnät"
+            },
+            {
+                "name": "Källare",
+                "hint": "Förråd"
+            },
+            {
+                "name": "Garage",
+                "hint": "Port"
+            },
+            {
+                "name": "Altan",
+                "hint": "Räcke"
+            },
+            {
+                "name": "Kök",
+                "hint": "Fläkt"
+            },
+            {
+                "name": "Badrum",
+                "hint": "Kakel"
+            },
+            {
+                "name": "Sovrum",
+                "hint": "Kudde"
+            },
+            {
+                "name": "Vardagsrum",
+                "hint": "Soffa"
+            },
+            {
+                "name": "Hall",
+                "hint": "Skohylla"
+            },
+            {
+                "name": "Kontor",
+                "hint": "Skrivbord"
+            },
+            {
+                "name": "Lager",
+                "hint": "Pallar"
+            },
+            {
+                "name": "Fabrik",
+                "hint": "Maskiner"
+            },
+            {
+                "name": "Bondgård",
+                "hint": "Traktor"
+            },
+            {
+                "name": "Växthus",
+                "hint": "Glasrutor"
+            },
+            {
+                "name": "Mejeri",
+                "hint": "Mjölk"
+            },
+            {
+                "name": "Slakteri",
+                "hint": "Krokar"
+            },
+            {
+                "name": "Hamnterminal",
+                "hint": "Färja"
+            },
+            {
+                "name": "Taxi-station",
+                "hint": "Kö"
+            },
+            {
+                "name": "Tunnelbana",
+                "hint": "Underjord"
+            },
+            {
+                "name": "Spårvagnshållplats",
+                "hint": "Ledning"
+            },
+            {
+                "name": "Tull",
+                "hint": "Kontroll"
+            }
+        ],
+        "filmer": [
+            {
+                "name": "Titanic",
+                "hint": "Låt"
+            },
+            {
+                "name": "Lejonkungen",
+                "hint": "Klippa"
+            },
+            {
+                "name": "Avatar",
+                "hint": "Blå"
+            },
+            {
+                "name": "Harry Potter",
+                "hint": "Ärr"
+            },
+            {
+                "name": "Star Wars",
+                "hint": "Far"
+            },
+            {
+                "name": "Sällskapsresan",
+                "hint": "Juice"
+            },
+            {
+                "name": "Jurtjyrkogården",
+                "hint": "Gräva"
+            },
+            {
+                "name": "Hajen",
+                "hint": "Båt"
+            },
+            {
+                "name": "Jurassic Park",
+                "hint": "Mygga"
+            },
+            {
+                "name": "Forrest Gump",
+                "hint": "Choklad"
+            },
+            {
+                "name": "The Matrix",
+                "hint": "Piller"
+            },
+            {
+                "name": "Gladiator",
+                "hint": "Arena"
+            },
+            {
+                "name": "Sagan om ringen",
+                "hint": "Vulkan"
+            },
+            {
+                "name": "Pulp Fiction",
+                "hint": "Portfölj"
+            },
+            {
+                "name": "Gudfadern",
+                "hint": "Häst"
+            },
+            {
+                "name": "Hemma ensam",
+                "hint": "Fällor"
+            },
+            {
+                "name": "Pretty Woman",
+                "hint": "Butik"
+            },
+            {
+                "name": "Dirty Dancing",
+                "hint": "Hörnet"
+            },
+            {
+                "name": "Top Gun",
+                "hint": "Glasögon"
+            },
+            {
+                "name": "Grease",
+                "hint": "Bil"
+            },
+            {
+                "name": "Shrek",
+                "hint": "Pepparkaka"
+            },
+            {
+                "name": "Toy Story",
+                "hint": "Låda"
+            },
+            {
+                "name": "Finding Nemo",
+                "hint": "Adress"
+            },
+            {
+                "name": "Monsters Inc",
+                "hint": "Dörrar"
+            },
+            {
+                "name": "Inception",
+                "hint": "Snurra"
+            },
+            {
+                "name": "Interstellar",
+                "hint": "Klocka"
+            },
+            {
+                "name": "The Dark Knight",
+                "hint": "Smink"
+            },
+            {
+                "name": "Spider-Man",
+                "hint": "Bett"
+            },
+            {
+                "name": "Iron Man",
+                "hint": "Grotta"
+            },
+            {
+                "name": "Avengers",
+                "hint": "Stenar"
+            },
+            {
+                "name": "Joker",
+                "hint": "Trappa"
+            },
+            {
+                "name": "Parasit",
+                "hint": "Källare"
+            },
+            {
+                "name": "The Shining",
+                "hint": "Yxa"
+            },
+            {
+                "name": "Psycho",
+                "hint": "Dusch"
+            },
+            {
+                "name": "Exorcisten",
+                "hint": "Säng"
+            },
+            {
+                "name": "Saw",
+                "hint": "Kedja"
+            },
+            {
+                "name": "Scream",
+                "hint": "Telefon"
+            },
+            {
+                "name": "Halloween",
+                "hint": "Mask"
+            },
+            {
+                "name": "E.T.",
+                "hint": "Finger"
+            },
+            {
+                "name": "Back to the Future",
+                "hint": "Blixt"
+            },
+            {
+                "name": "Indiana Jones",
+                "hint": "Piska"
+            },
+            {
+                "name": "Die Hard",
+                "hint": "Ventilation"
+            },
+            {
+                "name": "Terminator",
+                "hint": "Solglasögon"
+            },
+            {
+                "name": "Alien",
+                "hint": "Ägg"
+            },
+            {
+                "name": "Predator",
+                "hint": "Djungel"
+            },
+            {
+                "name": "Rambo",
+                "hint": "Pannband"
+            },
+            {
+                "name": "Rocky",
+                "hint": "Trappor"
+            },
+            {
+                "name": "The Breakfast Club",
+                "hint": "Kvarsittning"
+            },
+            {
+                "name": "Fight Club",
+                "hint": "Tvål"
+            },
+            {
+                "name": "Seven",
+                "hint": "Låda"
+            },
+            {
+                "name": "The Silence of the Lambs",
+                "hint": "Munkorg"
+            },
+            {
+                "name": "Schindler's List",
+                "hint": "Färg"
+            },
+            {
+                "name": "Braveheart",
+                "hint": "Målning"
+            },
+            {
+                "name": "The Shawshank Redemption",
+                "hint": "Affisch"
+            },
+            {
+                "name": "The Green Mile",
+                "hint": "Mus"
+            },
+            {
+                "name": "Pirates of the Caribbean",
+                "hint": "Kompass"
+            },
+            {
+                "name": "James Bond",
+                "hint": "Klocka"
+            },
+            {
+                "name": "Mission Impossible",
+                "hint": "Rep"
+            },
+            {
+                "name": "Fast and Furious",
+                "hint": "Familj"
+            },
+            {
+                "name": "The Hangover",
+                "hint": "Tiger"
+            },
+            {
+                "name": "Superbad",
+                "hint": "Legitimation"
+            },
+            {
+                "name": "Borat",
+                "hint": "Kostym"
+            },
+            {
+                "name": "Deadpool",
+                "hint": "Röd"
+            },
+            {
+                "name": "The Wolf of Wall Street",
+                "hint": "Pengar"
+            },
+            {
+                "name": "American Psycho",
+                "hint": "Visitkort"
+            },
+            {
+                "name": "La La Land",
+                "hint": "Piano"
+            },
+            {
+                "name": "A Star is Born",
+                "hint": "Scen"
+            },
+            {
+                "name": "Frozen",
+                "hint": "Morot"
+            },
+            {
+                "name": "Moana",
+                "hint": "Hav"
+            },
+            {
+                "name": "Aladdin",
+                "hint": "Lampa"
+            },
+            {
+                "name": "Den lilla sjöjungfrun",
+                "hint": "Gaffel"
+            },
+            {
+                "name": "Skönheten och odjuret",
+                "hint": "Ros"
+            },
+            {
+                "name": "Mulan",
+                "hint": "Svärd"
+            },
+            {
+                "name": "Coco",
+                "hint": "Gitarr"
+            },
+            {
+                "name": "Up",
+                "hint": "Ballonger"
+            },
+            {
+                "name": "The Truman Show",
+                "hint": "Kamera"
+            },
+            {
+                "name": "Eternal Sunshine of the Spotless Mind",
+                "hint": "Minne"
+            },
+            {
+                "name": "Slumdog Millionaire",
+                "hint": "Frågor"
+            },
+            {
+                "name": "Life of Pi",
+                "hint": "Båt"
+            },
+            {
+                "name": "The Martian",
+                "hint": "Potatis"
+            },
+            {
+                "name": "Gravity",
+                "hint": "Rymd"
+            },
+            {
+                "name": "Mad Max",
+                "hint": "Sand"
+            },
+            {
+                "name": "Dune",
+                "hint": "Krydda"
+            },
+            {
+                "name": "Singin' in the Rain",
+                "hint": "Paraply"
+            },
+            {
+                "name": "The Sound of Music",
+                "hint": "Berg"
+            },
+            {
+                "name": "The Wizard of Oz",
+                "hint": "Skor"
+            },
+            {
+                "name": "Mary Poppins",
+                "hint": "Väska"
+            },
+            {
+                "name": "Breakfast at Tiffany's",
+                "hint": "Fönster"
+            },
+            {
+                "name": "The Great Gatsby",
+                "hint": "Fest"
+            },
+            {
+                "name": "Ghostbusters",
+                "hint": "Slem"
+            },
+            {
+                "name": "Men in Black",
+                "hint": "Lampa"
+            },
+            {
+                "name": "Independence Day",
+                "hint": "Skepp"
+            },
+            {
+                "name": "Twister",
+                "hint": "Ko"
+            },
+            {
+                "name": "Jumanji",
+                "hint": "Tärning"
+            },
+            {
+                "name": "Night at the Museum",
+                "hint": "Staty"
+            },
+            {
+                "name": "Ted",
+                "hint": "Svär ord"
+            },
+            {
+                "name": "Despicable Me",
+                "hint": "Glasögon"
+            },
+            {
+                "name": "Ratatouille",
+                "hint": "Hatt"
+            },
+            {
+                "name": "The Notebook",
+                "hint": "Regn"
+            },
+            {
+                "name": "Twilight",
+                "hint": "Skog"
+            }
+        ]
+    }
+}
